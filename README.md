@@ -6,9 +6,9 @@ A visualização dele é acessível tanto Desktop, quanto Mobile. Gostei bastant
 
 ## Descrição 📜
 
-    O projeto tem o objetivo de criar um formulário com validação, onde o usuário tem que preencher os campos obrigatorio e caso algum campo não esteja preenchido vai pipocar uma mensagem de erro em baixo do input, além da borda ficar vermelha.
+O projeto tem o objetivo de criar um formulário com validação, onde o usuário tem que preencher os campos obrigatorio e caso algum campo não esteja preenchido vai pipocar uma mensagem de erro em baixo do input, além da borda ficar vermelha.
 
-    Quando tudo estiver certo a borda ficará verde.
+Quando tudo estiver certo a borda ficará verde.
 
 ## EXEMPLO PÁGINA 🖥️
 
