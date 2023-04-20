@@ -18,6 +18,8 @@ Quando tudo estiver certo a borda ficará verde.
 <img src="./src/gif/Formul%C3%A1rio%20com%20valida%C3%A7%C3%A3o.MOBILE.gif" height="600">
 </p>
 
+Link da página para o GitHub-pages: https://gatapericles.github.io/Formulario-com-validacao/
+
 ## O que foi utilizado na criação do site 🖊️:
 
 - HTML 5
