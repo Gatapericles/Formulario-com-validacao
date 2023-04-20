@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+
+    <title>Formulário com validação</title>
+  </head>
+  <body>
+    <main>
+      <section class="descricao">
+        <h2>FICOU COM DÚVIDA?<br />NOS MANDE UMA MENSAGEM!</h2>
+        <p>
+          caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e
+          entraremos em contato em nenos de 24h.
+        </p>
+      </section>
+
+      <form class="form" id="form">
+        <div class="form-content">
+          <input
+            type="text"
+            class="campo"
+            id="username"
+            placeholder="Nome Completo *"
+          />
+
+          <p class="obrigatorio">mensagem de erro</p>
+        </div>
+
+        <div class="form-content">
+          <input type="email" class="campo" id="email" placeholder="Email *" />
+
+          <p class="obrigatorio">mensagem de erro</p>
+        </div>
+
+        <div class="form-content">
+          <input
+            type="number"
+            class="campo"
+            id="phone"
+            placeholder="Telefone *"
+          />
+
+          <p class="obrigatorio">mensagem de erro</p>
+        </div>
+
+        <div class="form-content">
+          <textarea
+            class="campo"
+            id="message"
+            rows="6"
+            cols="31"
+            placeholder="Mensagem*"
+          ></textarea>
+
+          <p class="obrigatorio">mensagem de erro</p>
+        </div>
+
+        <p class="campo-obrigatorio">*campos obrigatórios</p>
+
+        <button type="submit" id="btn">Enviar</button>
+      </form>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
